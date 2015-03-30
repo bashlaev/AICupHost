@@ -74,31 +74,31 @@ public class BattlefieldView extends JPanel {
 	}
 
 	private final Image cellImage = Toolkit.getDefaultToolkit().createImage(
-			BattlefieldView.class.getResource("/com/devoler/aicup/host/run/resource/30x30.png"));
+			BattlefieldView.class.getResource("/img/30x30.png"));
 	private final Image baseImage = Toolkit.getDefaultToolkit().createImage(
-			BattlefieldView.class.getResource("/com/devoler/aicup/host/run/resource/base.png"));
+			BattlefieldView.class.getResource("/img/base.png"));
 	private final Image redFlag = Toolkit.getDefaultToolkit().createImage(
-			BattlefieldView.class.getResource("/com/devoler/aicup/host/run/resource/flag_red.png"));
+			BattlefieldView.class.getResource("/img/flag_red.png"));
 	private final Image blueFlag = Toolkit.getDefaultToolkit().createImage(
-			BattlefieldView.class.getResource("/com/devoler/aicup/host/run/resource/flag_blue.png"));
+			BattlefieldView.class.getResource("/img/flag_blue.png"));
 	private final Image redTank = Toolkit.getDefaultToolkit().createImage(
-			BattlefieldView.class.getResource("/com/devoler/aicup/host/run/resource/tank_red_shot_.png"));
+			BattlefieldView.class.getResource("/img/tank_red_shot_.png"));
 	private final Image blueTank = Toolkit.getDefaultToolkit().createImage(
-			BattlefieldView.class.getResource("/com/devoler/aicup/host/run/resource/tank_blue_shot_.png"));
+			BattlefieldView.class.getResource("/img/tank_blue_shot_.png"));
 	private final Image redSoldier = Toolkit.getDefaultToolkit().createImage(
-			BattlefieldView.class.getResource("/com/devoler/aicup/host/run/resource/soldier_red_shot.png"));
+			BattlefieldView.class.getResource("/img/soldier_red_shot.png"));
 	private final Image blueSoldier = Toolkit.getDefaultToolkit().createImage(
-			BattlefieldView.class.getResource("/com/devoler/aicup/host/run/resource/soldier_blue_shot.png"));
+			BattlefieldView.class.getResource("/img/soldier_blue_shot.png"));
 	private final Image explosion = Toolkit.getDefaultToolkit().createImage(
-			BattlefieldView.class.getResource("/com/devoler/aicup/host/run/resource/explosion.png"));
+			BattlefieldView.class.getResource("/img/explosion.png"));
 	private final Image redSoldierFire = Toolkit.getDefaultToolkit().createImage(
-			BattlefieldView.class.getResource("/com/devoler/aicup/host/run/resource/soldier_red_fire.png"));
+			BattlefieldView.class.getResource("/img/soldier_red_fire.png"));
 	private final Image blueSoldierFire = Toolkit.getDefaultToolkit().createImage(
-			BattlefieldView.class.getResource("/com/devoler/aicup/host/run/resource/soldier_blue_fire.png"));
+			BattlefieldView.class.getResource("/img/soldier_blue_fire.png"));
 	private final Image redTankFire = Toolkit.getDefaultToolkit().createImage(
-			BattlefieldView.class.getResource("/com/devoler/aicup/host/run/resource/tank_red_fire.png"));
+			BattlefieldView.class.getResource("/img/tank_red_fire.png"));
 	private final Image blueTankFire = Toolkit.getDefaultToolkit().createImage(
-			BattlefieldView.class.getResource("/com/devoler/aicup/host/run/resource/tank_blue_fire.png"));
+			BattlefieldView.class.getResource("/img/tank_blue_fire.png"));
 
 	private Animation animation;
 	private Battlefield battlefield;
